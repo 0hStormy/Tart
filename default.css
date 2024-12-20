@@ -19,22 +19,26 @@ body {
 
 h1 {
     font-size: 24pt;
-    margin-inline: 10%;
+    margin-inline: 5%;
 }
 
 h2 {
     font-size: 18pt;
-    margin-inline: 10%;
+    margin-inline: 5%;
 }
 
 h3 {
     font-size: 16pt;
-    margin-inline: 10%;
+    margin-inline: 5%;
 }
 
 p {
     font-size: 12pt;
-    margin-inline: 10%;
+    margin-inline: 5%;
+}
+
+li {
+    margin-inline: 5%;
 }
 
 img {

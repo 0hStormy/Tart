@@ -22,6 +22,9 @@ def parse(file):
         elif line.startswith("img"):
             htmlTag = '<img src="%">'
             tmlTag = "img"
+        elif line.startswith("*"):
+            htmlTag = '<li>%</li>'
+            tmlTag = "*"
         elif line.startswith("div"):
             htmlTag = '<hr>'
             tmlTag = "div"

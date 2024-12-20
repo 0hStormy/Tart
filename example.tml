@@ -13,5 +13,15 @@ body(
         div()
         img(example.png)
         p(Here is an amazing example image)
+        div()
+
+        box(
+            h2(Why use Tart?)
+
+            p(Tart may be a good fit for your projects because...)
+            *(It's quick to get started with)
+            *(You can easily expand it and add your own tags)
+            *(You can write HTML within Tart)
+        )box
     )center
 )body
