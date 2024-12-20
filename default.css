@@ -43,6 +43,11 @@ img {
     border-radius: var(--roundness);
 }
 
+hr {
+    margin: 32px;
+    margin-inline: 10%;
+}
+
 .banner {
     background-image: linear-gradient(to bottom right, var(--accent), var(--accent2));
     display: flex;

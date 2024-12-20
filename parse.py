@@ -8,7 +8,7 @@ def parse(file):
         line = line.removesuffix("\n")
         while line.startswith(" "):
             line = line.removeprefix(" ")
-            
+
         # Body tags
         if line.startswith("h1"):
             htmlTag = "<h1>%</h1>"
@@ -22,6 +22,9 @@ def parse(file):
         elif line.startswith("img"):
             htmlTag = '<img src="%">'
             tmlTag = "img"
+        elif line.startswith("div"):
+            htmlTag = '<hr>'
+            tmlTag = "div"
         elif line.startswith("banner"):
             htmlTag = '<div class="banner">%</div>'
             tmlTag = "banner"

@@ -10,7 +10,7 @@ body(
         h2(Markup for the rest of us.)
 
         p(Do you need to write something down faster than in HTML, but still want the flexibility of HTML? Tart might just be for you. The syntax is meant to be very readable, using mainly human readable names and parenthesis for defining things.)
-
+        div()
         img(example.png)
         p(Here is an amazing example image)
     )center
